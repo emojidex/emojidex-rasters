@@ -1,0 +1,5 @@
+source 'http://rubygems.org'
+
+gem 'emojidex'
+gem 'emojidex-converter'
+gem 'emojidex-vectors', github: 'emojidex/emojidex-vectors'
