@@ -16,7 +16,7 @@ require 'emojidex-vectors'
 # UTF
 utf_dest = '../emoji/utf'
 FileUtils.rm_rf(utf_dest)
-converter = Emojidex::Converter.new(destination: utf_dest)
+converter = Emojidex::Converter.new(destination: utf_dest, noisy: true)
 utf = Emojidex::UTF.new
 
 puts "Rasterizing UTF emoji"
@@ -26,7 +26,7 @@ converter.rasterize_collection(utf)
 # Extended
 extended_dest = '../emoji/extended'
 FileUtils.rm_rf(extended_dest)
-converter = Emojidex::Converter.new(destination: extended_dest)
+converter = Emojidex::Converter.new(destination: extended_dest, noisy: true)
 extended = Emojidex::Extended.new
 
 puts "Rasterizing Extended emoji"
