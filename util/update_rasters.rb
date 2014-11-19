@@ -3,12 +3,6 @@
 # Update PNGs from original SVG sources
 #########################################
 
-require 'rubygems'
-
-gem 'emojidex'
-gem 'emojidex-converter'
-gem 'emojidex-vectors', github: 'emojidex/emojidex-vectors'
-
 require 'emojidex'
 require 'emojidex_converter'
 require 'emojidex-vectors'
