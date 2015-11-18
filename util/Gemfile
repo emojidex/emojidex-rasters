@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'emojidex', '0.0.23'
+gem 'emojidex', github: 'emojidex/emojidex'
 gem 'rapngasm', github: 'apngasm/rapngasm'
 gem 'emojidex-converter', path: '../../emojidex-converter'
 #gem 'emojidex-vectors', github: 'emojidex/emojidex-vectors'
