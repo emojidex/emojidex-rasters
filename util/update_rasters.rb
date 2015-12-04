@@ -4,6 +4,8 @@
 #########################################
 
 require 'emojidex'
+require 'emojidex/data/utf'
+require 'emojidex/data/extended'
 require 'emojidex_converter'
 require 'emojidex-vectors'
 
