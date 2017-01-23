@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'emojidex-rasters'
-  s.version     = '1.0.26'
+  s.version     = '1.0.27'
   s.license     = 'emojidex Open License'
   s.summary     = 'Rasterized [PNG] emoji assets for emojidex.'
   s.description = 'Rasterized [PNG] assets for emojidex. These assets can be used as a gem and combined with emojidex and emojidex-converter.'
