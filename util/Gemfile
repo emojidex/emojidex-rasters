@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'emojidex', '~> 0.4.2'
-# gem 'emojidex', path: '../../emojidex'
+# gem 'emojidex', '~> 0.4.2'
+gem 'emojidex', path: '../../emojidex'
 gem 'rapngasm', '~> 3.2.0'
-gem 'emojidex-converter', '~> 0.3.3'
-# gem 'emojidex-converter', path: '../../emojidex-converter'
+# gem 'emojidex-converter', '~> 0.3.3'
+gem 'emojidex-converter', path: '../../emojidex-converter'
 gem 'emojidex-vectors', path: '../../emojidex-vectors'
