@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name        = 'emojidex-rasters'
-  s.version     = '1.0.31pre'
+  s.version     = '1.0.31'
   s.license     = 'emojidex Open License'
   s.summary     = 'Rasterized [PNG] emoji assets for emojidex.'
   s.description = 'Rasterized [PNG] assets for emojidex. These assets can be used as a gem and combined with emojidex and emojidex-converter.'
-  s.authors     = ['Yoshihiro Tsuchiyama', 'Jun Tohyama', 'Rei Kagetsuki', 'Rika Yoshida']
+  s.authors     = ['Yoshihiro Tsuchiyama', 'Lagunis', 'Jun Tohyama', 'Rei Kagetsuki', 'Rika Yoshida']
   s.email       = 'info@emojidex.com'
   s.files       = Dir.glob('emoji/**/*') +
                   Dir.glob('lib/**/*.rb') +
